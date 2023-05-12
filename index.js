@@ -1,7 +1,7 @@
 const {ApolloServer} = require('apollo-server');
 const mongoose= require('mongoose')
 
-const MONGODB='mongodb+srv://nameera:<password>@cluster0.arfwhew.mongodb.net/?retryWrites=true&w=majority'
+const MONGODB='mongodb+srv://nameera:khan6466@cluster0.arfwhew.mongodb.net/?retryWrites=true&w=majority'
 
 const typeDefs=require('./garphql/typeDefs')
 const resolvers=require('./garphql/resolvers')
